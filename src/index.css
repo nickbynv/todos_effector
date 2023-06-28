@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-color: #eeeeee;
+
+  display: flex;
+  justify-content: center;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
